@@ -10,6 +10,7 @@ import './styles.css';
 import MainPage from './routes/mainpage/MainPage';
 import Information from './routes/information/Information';
 import Warning from './routes/warning/Warning';
+import Posts from './routes/posts/Posts';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Container>
         <Route exact path="/" component={MainPage} />
         <Route exact path="/information" component={Information} />
+        <Route exact path="/posts" component={Posts} />
         <Route exact path="/warning" component={Warning} />
       </Container>
     </Router>

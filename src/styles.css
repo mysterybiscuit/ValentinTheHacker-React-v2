@@ -2,3 +2,16 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.jumbotron {
+  background: rgba(0, 0, 0, 0);
+}
+
+.navbar-toggler {
+  color: black;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.navbar-toggler-icon {
+  border-color: rgba(0, 0, 0, 0);
+}

@@ -71,6 +71,13 @@ const Information = () => {
         and experience I build up at my job. I might also include the occasional
         hobby project in here just for fun.
       </p>
+      <p>
+        I don't really have solid plans for when I am going to upload stuff,
+        besides the fact that I would like to have at least the basics of
+        Networking done in February 2020. It would be nice if Python stood tall
+        as well by that point, but Networking and Pentesting are going to be my
+        main priorities for now.
+      </p>
     </Container>
   );
 };

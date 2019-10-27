@@ -13,6 +13,7 @@ import Warning from './routes/warning/Warning';
 import Posts from './routes/posts/Posts';
 import Pentesting from './routes/posts/pentesting/Pentesting';
 import SoftwareEngineering from './routes/posts/software-engineering/SoftwareEngineering';
+import Networking from './routes/posts/networking/Networking';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route exact path="/" component={MainPage} />
         <Route exact path="/information" component={Information} />
         <Route exact path="/posts" component={Posts} />
+        <Route exact path="/posts/networking" component={Networking} />
         <Route exact path="/posts/pentesting" component={Pentesting} />
         <Route exact path="/posts/software-engineering" component={SoftwareEngineering} />
         <Route exact path="/warning" component={Warning} />
